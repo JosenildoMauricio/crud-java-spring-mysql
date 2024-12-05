@@ -54,7 +54,7 @@ public class CategoriaController {
 
 		return ResponseEntity
 				.status(HttpStatus.OK)
-				.body(categoriaService.alterar(categoria));
+				.body(categoriaService.alterar(categoriaAtual));
 
 	}
 
